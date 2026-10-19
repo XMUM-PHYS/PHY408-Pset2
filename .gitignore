@@ -1,0 +1,12 @@
+# Never commit data: the CMS file is 2.1 GB and GitHub rejects files over 100 MB
+data/
+*.root
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
